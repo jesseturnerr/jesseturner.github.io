@@ -15,10 +15,8 @@ body, html {
 
 img {
     max-width: 100%;
-    margin-left: 252px;
+
 }
-
-
 
 ul.rslides {
     box-shadow: 15px 15px 10px 0px rgba(37, 39, 44, 0.582);
@@ -128,12 +126,12 @@ nav ul li a {
     border-radius: 5px;
     margin: 20px;
     box-shadow: 7px 7px 5px rgba(37, 39, 44, 0.582);
-    background-image: linear-gradient(to top, #000220, #27272b);
+    background-image: linear-gradient(to top, #747272ce, #27272b);
     transition: all 0.3s linear;
 }
 
 nav ul li a:hover {
-    background-image: linear-gradient(to bottom, #000220, #27272b);
+    background-image: linear-gradient(to bottom, #747272ce, #27272b);
     transform: scale(1.1);
 
 }
@@ -257,106 +255,41 @@ article.sobre {
 
 .portfolio h1 {
     margin-bottom: 20px;
+    float: left;
+    background-image: linear-gradient(to top, #2c2c2cce, #7e7e7ece, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2em;
 }
 
 div.item {
     background-image: linear-gradient(to bottom, #ffffff73, #000000);
-    padding-top: 134px;
-    margin-bottom: 100px; 
-    font-weight: bold;
-}
-.item {
-    text-align: center;
-   
 }
 
-/*Contato*/
-.contato {
-    width: 70%;
-    padding: 15px;
-    background-color: #FFF;
-    margin: 15px auto;
-    border-radius: 5px;
-    box-shadow: 15px 15px 15px 0px rgba(37, 39, 44, 0.582)
-}
 
-form {
-	margin: 40px 0;
-}
-
-form label, form legend {
-	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
-
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-}
-
-.contato ul {
-    width: 100%;
-    margin: 30px 15px 15px 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.contato ul li {
-    flex: 0 1 50px;
-    margin: 5px;
-    border-radius: 5px;
-    border: 1px solid #000;
-    transition: 1s transform;
-}
-
-.contato ul li a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    transition: all 1s ease-in-out;
-}
-.contato li:hover {
-    transform: scale(1.3);
-}
-.contato ul li a:hover {
-    background-color: #000000;
-    color: #FFF;
-   
-}
-.enviar_formulario {
-    background-image: linear-gradient(to top, #000000, #27272b);
-    margin-top: 30px;
-    margin-left: 336px;
-    margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    text-transform: uppercase;
-    color:#ffffff;
-    box-shadow: 3px 3px 3px black;
-    transition: 2s transform; 
-    cursor: pointer;
-     
-}
-.enviar_formulario:hover {
-    background-image: linear-gradient(to bottom, #000000, #27272b);
-    transform: scale(1.3);
-}
-form.contato {
-    background-color: #ffffff73;
-    margin: 0 auto 40px auto
-}
-article.contato {
-    background-color: #ffffff73;
-}
 /*Media Screen*/
 @media screen and (max-width: 600px) {
     body, html {font-size: 12px}
+
+    .menu {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        color: #FFF;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+        margin-top: -3px;
+        margin-right: -3px;
+        margin-bottom: -3px;
+        margin-left: -3px;
+        box-shadow: 7px 7px 5px rgb(37 39 44 / 58%);
+        background-image: linear-gradient(to top, #747272ce, #27272b);
+        transition: all 0.3s linear;
+    }
 
     .foto {
         width: 200px;
