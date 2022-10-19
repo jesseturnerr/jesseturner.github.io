@@ -271,6 +271,7 @@ article.sobre {
 
 .portfolio h1 {
     margin-bottom: 20px;
+    background-image: linear-gradient(to top, #2c2c2cce, #7e7e7ece, #ffffff);
     float: left;
     background-clip: text;
     -webkit-background-clip: text;
