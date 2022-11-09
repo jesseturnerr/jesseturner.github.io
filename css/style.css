@@ -260,12 +260,9 @@ article.sobre {
 
 /*Portfólio*/
 
-.item {
-    transition: 1s transform;
-}
-
-.item:hover {
+li:hover {
     transform: scale(1.1);
+    transition: 1s transform;
     cursor: pointer;
 }
 
