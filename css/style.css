@@ -311,6 +311,7 @@ article.sobre {
         border-radius: 50%;
     }
 }
+
 ::selection {
     background-color: #0000006c;
 }
